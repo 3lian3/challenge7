@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+}
+@media screen and (min-width:650px) { 
+    .box{
+        height: 450px;
+        min-height: auto;
+    }
+}
+@media screen and (min-width:400px) { 
+    .box{
+        height:300px;
+       }
+}
